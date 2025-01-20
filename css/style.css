@@ -1114,6 +1114,9 @@ header:hover .logo a{
 /* max-width:820px */
 
 @media (max-width:820px){
+  
+
+
     .page-header h2 {
         font-size: 60px;
         
@@ -1133,6 +1136,69 @@ header:hover .logo a{
 
 
 @media (max-width:768px){
+    #hyundai {
+        font-size: 8em;
+    }
+
+    .sectoion1 .page1 {
+        flex-direction: column;
+    }
+
+    .page1 .text {
+        margin-top: 30px;
+    
+    }
+
+    .page2 .text {
+        padding-left: 0;
+        text-align: center;
+       
+      
+    }
+
+    .page1 .text h1 {
+        text-align: center;
+    }
+
+    .sectoion1 .page2 {
+       margin-top: 50px;
+    }
+
+
+    .sectoion1 .page2 {
+        flex-direction: column;
+    }
+
+    .page2 .car {
+       margin-top:150px;
+       width:100%;
+    }
+
+    .section_bg h3 .text{
+        display: none;
+    }
+
+    .section_bg h3 {
+        font-size: 36px;
+        font-weight: 600;
+        margin-top: -20vh;
+    }
+
+    .carBox ul {
+       flex-direction: column;
+       margin: 0 auto;
+       margin-top: 100px;
+    }
+
+    .carBox li {
+        width: 95%;
+        margin:0 auto;
+    }
+
+    .carBox .box1 .image-box {
+        margin-bottom: 13px;
+    }
+
     .menu-list{display:none;}
 
     .nav-toggle-label{
@@ -1222,6 +1288,70 @@ header:hover .logo a{
 
 
 /* max-width:768px */
+
+
+
+/* max-width:740px */
+
+@media (max-width:740px){
+    .page-header {
+      flex-direction: column;
+    }
+
+    .page-header h2 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+/* max-width:740px */
+
+
+
+/* max-width:620px */
+
+@media (max-width:620px){
+    #hyundai {
+        font-size: 6em;
+        bottom: -10px;
+    }
+
+    .page2 .text {
+        font-size:26px;
+    }
+
+    .section_bg h3 {
+        font-size: 30px;
+       
+    }
+
+}    
+/* max-width:620px */
+
+
+
+/* max-width:560px */
+
+@media (max-width:560px){
+    .page1 .car {
+        width: 100%;
+    }
+
+    .page1 .text h1 {
+        font-size: 24px;
+    }
+
+    .page2 .text {
+        font-size: 24px;
+    }
+
+    .section_bg h3 {
+        font-size: 26px;
+    }
+
+}
+
+/* max-width:560px */
 
 
 
